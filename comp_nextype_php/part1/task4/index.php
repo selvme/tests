@@ -7,7 +7,6 @@ if (!file_exists($filename)) {
     exit(1);
 }
 
-$result = [];
 $viewed = filter_input(INPUT_GET, 'set_viewed');
 $cookie = filter_input(INPUT_COOKIE, 'userSawThisNews-' . $viewed);
 $result = json_decode(file_get_contents($filename), true);

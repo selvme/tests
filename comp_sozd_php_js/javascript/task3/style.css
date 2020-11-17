@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li, ul {
+    margin: 10px;
+    list-style-type: none;
+}
+
+.hi {
+    display: none;
+}
+
+a {
+    height: 20px;
+    width: 80px;
+    text-decoration: none;
+    color: #ccc;
+    display: block;
+    text-align: center;
+    background: #444;
+}
+
+.icon:before {
+    content: '[+]';
+}
